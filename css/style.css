@@ -1,6 +1,6 @@
 body{
     background-color:rgba(0,0,0,0.5);
-    background-image: url("../assets talent fest/backgrund-footer.jpg");
+    background-image: url("../images/backgrund-footer.jpg");
     background-position:top;
 }
 
@@ -119,6 +119,8 @@ form{
     margin:30px 0;
 }
 
+
+
 /*-------------------------checkbox--------------------*/
 /* Base for label styling */
 [type="checkbox"]:not(:checked),
@@ -170,16 +172,3 @@ form{
   opacity: 1;
   transform: scale(1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
