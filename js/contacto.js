@@ -1,19 +1,18 @@
 (function($) {
     $(function() {
-
         $("form.ajax-form").validate({
             errorPlacement: function(error, element) {
-                // Append error within linked label
                 $(element)
                     .closest("form")
                     .find("label[for='" + element.attr("id") + "']")
                     .append(error);
             },
+            
             errorElement: "span",
             rules: {
                 sender: {
                     required: true,
-                    minlength: 2,
+                    minlength: 3,
                     lettersonly: true
                 },
                 phone: {
@@ -32,10 +31,11 @@
                     minlength: 6
                 }
             },
+
             messages: {
                 sender: {
                     required: "Please enter your name",
-                    minlength: "Minimum 2 characters",
+                    minlength: "Minimum 3 characters",
                     lettersonly: "Only letters please!"
                 },
                 phone: {
@@ -55,11 +55,11 @@
                 }
             },
             success: function(label) {
-                label.addClass("valid").text("Perfect!");
+                label.addClass("valid").text("OK!");
             },
           
         });
-        // Contact form input transitions
+
         $('input,textarea').val("");
         $('.contact-form .form-group input,.contact-form .form-group textarea').focusout(function() {
             var text_val = $(this).val();
