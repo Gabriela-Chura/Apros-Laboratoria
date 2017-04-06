@@ -157,7 +157,7 @@
     height: 300px;
     width: 250px;
     top: 50px;
-    padding: 40px  0 0 40px; }
+    padding: 40px 0 0 40px; }
   .content-wrap table {
     font-size: 9px;
     margin-right: 20px;
@@ -181,29 +181,13 @@
     #cap-1 .sec-titulo hr {
       float: left; }
 
-#mapa {
-  width: 481px;
-  height: 557px; }
+.imagenPrueba {
+  background-color: white;
+  height: 200px; }
 
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0; }
-
-#map {
-  height: 100%; }
-
-#map img {
-  max-width: none; }
-
-#caja {
-  width: 481px;
-  height: 66px;
+button {
   background-color: #fff;
-  color: #000;
-  border-radius: 4px; }
-  #caja #direccionMapa {
-    margin: 0; }
+  border-radius: 5px;
+  border: 1px solid #d4d4d4; }
 
 /*# sourceMappingURL=slader.css.map */

@@ -42,16 +42,46 @@ function onClickBtnFive() {
 }
 
 function gotoSection(_identificadorDeSeccion) {
-    currentSection.removeClass('visible');
+    if(currentSection.hasClass('visible')){
+       currentSection.removeClass('visible');
+    }else{
+        currentSection.addClass('visible');
+    }
+    
     var nextSection = $('#' + _identificadorDeSeccion);
-    nextSection.addClass('visible animated fadeInLeft');
+    nextSection.addClass('visible animated fadeInLeft'); 
 
     //TweenMax.from(nextSection, 1, {scale:0.2, opacity:0, ease:Elastic.easeOut});
     currentSection = nextSection;
 }
 
-$('.btn-cambio1').click(function(evt) {
-    currentSection.removeClass('visible');
-    console.log(currentSection);
+$('.btn-cambio1').click(function (evt) {
+    var seccion = '#' + currentSection.attr('id') + ' .col-xs-8';
+    console.log($(seccion));
+    $(' .texto').removeClass('visible');
+    $('.carrusel').removeClass('visible');
+    $('.titulo').removeClass('visible');
+    var contenido = '<div class="row" style="font-size: 0.90em">' +
+        '<div class="col-xs-12">' +
+        '<p><b>Abono</b> mejorado para suelos</p>' +
+        '</div>' +
+        '</div>' +
+        '<div class="row" style="font-size: 0.75em">' +
+        '<div class="col-xs-12">' +
+        '<h1>Cocoa</h1>' +
+        '</div>' +
+        '</div>' +
+        '<div class="row" style="font-size: 0.75em">' +
+        '<div class="col-xs-6" style="font-size: 0.75em">' +
+        '<div class="imagenPrueba"></div>' +
+        '</div>' +
+        '<div class="col-xs-6" style="font-size: 0.80em">' +
+        '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At in consequuntur velit laudantium nulla dicta, illo voluptates voluptatem. Natus ipsum culpa pariatur autem nemo soluta, hic qui, veniam? Hic, culpa.</p>' +
+        '<button style="font-size: 0.80em">Ver Estadisticas</button>' +
+        '</div>' +
+        '</div>';
+        
+    $(seccion).html(contenido).addClass('animated fadeInRight');
+    
     evt.preventDefault();
 });
