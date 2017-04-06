@@ -1,23 +1,34 @@
-* {
-  outline: 1px solid red; }
-
 body {
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: url("../images/backgrund-footer.jpg");
+  background-image: url("../img/backgrund-footer.jpg");
   background-position: top; }
+
+#home {
+  margin-top: 3%; }
 
 /*--------------------------------contacto----------------------------------------------*/
 .titulo {
   color: #414a55; }
 
+.boton, .titulo {
+  font-family: 'Montserrat', sans-serif; }
+
+p, label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal !important; }
+
 .contactos {
-  background-color: white; }
+  background-color: white;
+  padding: 5% 9%; }
   .contactos .caja {
     margin: 20px 0;
     color: #242021; }
     .contactos .caja p {
       font-size: 14px;
-      font-weight: bold; }
+      font-weight: bold;
+      line-height: 1px; }
+    .contactos .caja i {
+      margin-left: 8px; }
     .contactos .caja small {
       font-size: 12px; }
 
@@ -26,12 +37,12 @@ body {
   border-bottom: 1px solid #cfcbcb;
   width: 45px;
   position: absolute;
-  left: 115px;
-  padding: 7px 0; }
+  padding: 3px 0;
+  height: 1px; }
 
 /*------------------------------------------formulario------------------------------*/
 form {
-  margin: 0px 30px 0 0;
+  margin: 5% 30px;
   padding: 0 5px; }
 
 .contact-form {
@@ -117,6 +128,9 @@ form {
 .form-group textarea.has-value + label {
   top: 30px; }
 
+span.aviso {
+  color: red; }
+
 .boton {
   padding: 5px 20px;
   font-size: 14px;
@@ -130,7 +144,15 @@ form {
 .condiciones {
   color: #ffffff;
   font-weight: 100 !important;
-  margin: 10px 0; }
+  margin: 20px 0; }
+
+.valid {
+  margin-left: 5px;
+  color: blue; }
+
+.error {
+  color: red;
+  margin-left: 5px; }
 
 /*-------------------------checkbox--------------------*/
 /* Base for label styling */
@@ -166,7 +188,7 @@ form {
   position: absolute;
   top: .1em;
   left: .1em;
-  font-size: 1.3em;
+  font-size: 1.5em;
   line-height: 0.8;
   color: #ffffff;
   transition: all .2s;
@@ -175,6 +197,14 @@ form {
   height: 15px;
   border-radius: 3px; }
 
+/*----------------------------------footer-------------------------------*/
+.foot li {
+  display: inline; }
+  .foot li a i {
+    margin: 50px 10px 10px 10px;
+    color: white; }
+
+/*-------------------------------*/
 /* checked mark aspect changes */
 [type="checkbox"]:not(:checked) + label:after {
   opacity: 0;
@@ -186,7 +216,7 @@ form {
 
 #mapa {
   width: 100%;
-  height: 557px; }
+  height: 430px; }
 
 html,
 body {
@@ -208,5 +238,10 @@ body {
   border-radius: 4px; }
   #cajaDireccion #direccionMapa {
     margin: 0; }
+  #cajaDireccion i {
+    padding: 9px 25px; }
+
+.mapa {
+  padding: 0; }
 
 /*# sourceMappingURL=contacto.css.map */
