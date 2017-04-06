@@ -3,7 +3,7 @@
 
 body {
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: url("../assets talent fest/backgrund-footer.jpg");
+  background-image: url("../images/backgrund-footer.jpg");
   background-position: top; }
 
 /*--------------------------------contacto----------------------------------------------*/
@@ -11,18 +11,13 @@ body {
   color: #414a55; }
 
 .contactos {
-  background-color: white;
-  line-height: 2px;
-  padding: 3% 9%;
-  margin-right: 15px; }
+  background-color: white; }
   .contactos .caja {
     margin: 20px 0;
     color: #242021; }
     .contactos .caja p {
       font-size: 14px;
       font-weight: bold; }
-    .contactos .caja i {
-      padding-left: 15px; }
     .contactos .caja small {
       font-size: 12px; }
 
@@ -188,5 +183,30 @@ form {
 [type="checkbox"]:checked + label:after {
   opacity: 1;
   transform: scale(1); }
+
+#mapa {
+  width: 100%;
+  height: 557px; }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+#map {
+  height: 100%; }
+
+#map img {
+  max-width: none; }
+
+#cajaDireccion {
+  width: 100%;
+  height: 66px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 4px; }
+  #cajaDireccion #direccionMapa {
+    margin: 0; }
 
 /*# sourceMappingURL=contacto.css.map */
