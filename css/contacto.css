@@ -1,189 +1,55 @@
-body {
-  background-color: rgba(0, 0, 0, 0.5);
-  background-image: url("../assets talent fest/backgrund-footer.jpg");
-  background-position: top; }
+/*
+Error: Invalid CSS after "...bd5b9fe0238ec28": expected "{", was "}"
+        on line 16 of _contacto.scss
 
-/*--------------------------------contacto----------------------------------------------*/
-.titulo {
-  color: #414a55; }
+11: body {
+12:     background-color: rgba(0, 0, 0, 0.5);
+13:     background-image: url("../img/backgrund-footer.jpg");
+14:     background-position: top;
+15: >>>>>>> 98cd1f3518d517623aeeec02ebd5b9fe0238ec28
+16: }
+17: 
+18: 
+19: /*--------------------------------contacto----------------------------------------------*\/
+20: 
+21: .titulo {
 
-.contactos {
-  background-color: white;
-  line-height: 2px;
-  padding: 3% 9%;
-  margin-right: 15px; }
-  .contactos .caja {
-    margin: 20px 0;
-    color: #242021; }
-    .contactos .caja p {
-      font-size: 14px;
-      font-weight: bold; }
-    .contactos .caja i {
-      padding-left: 15px; }
-    .contactos .caja small {
-      font-size: 12px; }
-
-.separator {
-  border: 0;
-  border-bottom: 1px solid #cfcbcb;
-  width: 45px;
-  position: absolute;
-  left: 115px;
-  padding: 7px 0; }
-
-/*------------------------------------------formulario------------------------------*/
-form {
-  margin: 10px 30px 0 0;
-  padding: 0 5px; }
-
-.contact-form {
-  text-align: left;
-  padding: 0;
-  color: #333; }
-
-.form-group {
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  position: relative; }
-
-.form-group input:focus,
-.form-group input:active {
-  outline: none; }
-
-.form-group input[type="submit"]:active {
-  color: white;
-  background: #21a1e1; }
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  display: inline-block;
-  padding: 5px 0;
-  margin: 10px 0 0 0;
-  font-size: 18px;
-  background: none;
-  border: 0;
-  border-bottom: 1px solid #ffffff;
-  color: #ffffff;
-  box-shadow: none;
-  outline: none;
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important;
-  box-shadow: none !important; }
-
-.form-group input:focus,
-.form-group textarea:focus {
-  border: 0;
-  border-bottom: 1px solid #61b956;
-  -webkit-transition: border-width 0.1s ease-in-out;
-  -moz-transition: border-width 0.1s ease-in-out;
-  transition: border-width 0.1s ease-in-out; }
-
-.form-group textarea:focus {
-  border: 0;
-  border-bottom: 2px solid #61b956; }
-
-.form-group textarea {
-  min-height: 50px;
-  border: 0;
-  padding: 0px;
-  border-bottom: 1px solid #ffffff;
-  margin-top: 40px; }
-
-.form-group label {
-  position: absolute;
-  top: 50%;
-  left: 0px;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  font-size: 18px;
-  color: #ffffff;
-  pointer-events: none;
-  -webkit-transition: all 0.15s ease-out 0s;
-  transition: all 0.15s ease-out 0s; }
-
-.form-group textarea + label {
-  top: 24%; }
-
-.form-group input:focus + label,
-.form-group input.has-value + label,
-.form-group textarea:focus + label,
-.form-group textarea.has-value + label {
-  top: -0px;
-  font-size: 12px;
-  color: #61b956; }
-
-.form-group textarea:focus + label,
-.form-group textarea.has-value + label {
-  top: 30px; }
-
-.boton {
-  padding: 5px 20px;
-  font-size: 14px;
-  color: #fff;
-  font-weight: bold !important;
-  border-radius: 4px;
-  border: 1px solid #61b956;
-  background-color: #61b956;
-  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.15); }
-
-.condiciones {
-  color: #ffffff;
-  font-weight: 100 !important;
-  margin: 10px 0; }
-
-/*-------------------------checkbox--------------------*/
-/* Base for label styling */
-[type="checkbox"]:not(:checked),
-[type="checkbox"]:checked {
-  position: absolute; }
-
-[type="checkbox"]:not(:checked) + label,
-[type="checkbox"]:checked + label {
-  position: relative;
-  padding-left: 1.90em;
-  cursor: pointer; }
-
-/* checkbox aspect */
-[type="checkbox"]:not(:checked) + label:before,
-[type="checkbox"]:checked + label:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 1.25em;
-  height: 1.25em;
-  border: 2px solid #ccc;
-  background: #fff;
-  border-radius: 4px;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); }
-
-/* checked mark aspect */
-[type="checkbox"]:not(:checked) + label:after,
-[type="checkbox"]:checked + label:after {
-  content: 'X';
-  padding: 1px;
-  position: absolute;
-  top: .1em;
-  left: .1em;
-  font-size: 1.3em;
-  line-height: 0.8;
-  color: #ffffff;
-  transition: all .2s;
-  background: #61b956;
-  width: 15px;
-  height: 15px;
-  border-radius: 3px; }
-
-/* checked mark aspect changes */
-[type="checkbox"]:not(:checked) + label:after {
-  opacity: 0;
-  transform: scale(0); }
-
-[type="checkbox"]:checked + label:after {
-  opacity: 1;
-  transform: scale(1); }
-
-/*# sourceMappingURL=contacto.css.map */
+Backtrace:
+_contacto.scss:16
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:656:in `block'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...bd5b9fe0238ec28\": expected \"{\", was \"}\"\A         on line 16 of _contacto.scss\A \A 11: body {\A 12:     background-color: rgba(0, 0, 0, 0.5);\A 13:     background-image: url(\"../img/backgrund-footer.jpg\");\A 14:     background-position: top;\A 15: >>>>>>> 98cd1f3518d517623aeeec02ebd5b9fe0238ec28\A 16: }\A 17: \A 18: \A 19: /*--------------------------------contacto----------------------------------------------*/\A 20: \A 21: .titulo {"; }
