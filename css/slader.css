@@ -181,4 +181,29 @@
     #cap-1 .sec-titulo hr {
       float: left; }
 
+#mapa {
+  width: 481px;
+  height: 557px; }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+#map {
+  height: 100%; }
+
+#map img {
+  max-width: none; }
+
+#caja {
+  width: 481px;
+  height: 66px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 4px; }
+  #caja #direccionMapa {
+    margin: 0; }
+
 /*# sourceMappingURL=slader.css.map */
