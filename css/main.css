@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 98cd1f3518d517623aeeec02ebd5b9fe0238ec28
+#mapa {
+  width: 90%;
+  height: 400px; }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+#map {
+  height: 100%; }
+
+#map img {
+  max-width: none; }
+
+#caja {
+  width:90%;
+  height: 66px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 4px; }
+  #caja #direccionMapa {
+    margin: 0; }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 98cd1f3518d517623aeeec02ebd5b9fe0238ec28
