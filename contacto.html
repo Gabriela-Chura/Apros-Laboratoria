@@ -7,49 +7,88 @@
     <title>talentFest</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/contacto.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/font-awesome.min.css">
   
 </head>
 <body id="home" data-spy="scroll" data-target=".navbar-fixed-top">
-    <section id="contact" class="content-section text-center">
-        <div class="contact-section">
-            <div class="container">
-                <div class="contact-form">
-                    <div class="row">
-                    <div class="col-md-4"></div>
-                        <div class="col-md-4">
-                <form class="ajax-form" id="comment-form" method="post" action="">
-                                            <div class="form-group">
-                  <input type="text" id="sender" name="sender">
-                  <label for="sender">Nombre</label>
-                </div>
-                <div class="form-group">
-                  <input type="text" name="company" id="company">
-                  <label for="company">Apellidos</label>
-                </div>
-                <div class="form-group">
-                  <input type="email" name="email" id="email" />
-                  <label for="email">Email</label>
-                </div>
-                 <div class="form-group">
-                  <input type="text" name="phone" id="phone" maxlength="9">
-                  <label for="phone">Celular</label>
-                </div>
-            <div class="form-group">
-              <textarea id="message" name="message"></textarea>
-              <label for="message">Mensaje</label>
-            </div>
-             <input style="display:none" id="test2" type="checkbox"><label class="condiciones" for="test2"> Acepto las <strong>Condiciones del servicio</strong>  y la política de privacidad de Company</label>
-            <button type="submit" name="submit" class="boton">Enviar</button>
-            
-            </div>
-            </form>
-            </div>
-            </div>
-            </div>
-            <div class="col-md-4"></div>
-            </div>
-            </div>
-        
+ 	<div class="container-fluid">
+        <div class="row">
+	        <div class="col-md-4 contactos">
+	        	<h3 class="titulo">CONTACTOS</h3>
+	        		<div class="caja">
+	        			<hr class="separator">
+	        			<p>La Libertad-Trujillo</p>
+	        			<small>Juan de la Cruz <i class="fa fa-phone" aria-hidden="true"></i> (01)-44747</small>
+	        		</div>
+	        			<hr class="separator">
+	        		<div class="caja">
+	                    <p>La Libertad-Trujillo</p>
+	                    <small>Juan de la Cruz <i class="fa fa-phone" aria-hidden="true"></i> (01)-44747</small>
+	                </div>
+	                    <hr class="separator">
+	                <div class="caja">
+	                   	<p>La Libertad-Trujillo</p>
+	                    <small>Juan de la Cruz <i class="fa fa-phone" aria-hidden="true"></i> (01)-44747</small>
+	                </div>
+	                   	<hr class="separator">
+	                <div class="caja">
+	                    <p>La Libertad-Trujillo</p>
+	                    <small>Juan de la Cruz <i class="fa fa-phone" aria-hidden="true"></i> (01)-44747</small>
+	                </div>
+	                <hr class="separator">
+	                <div class="caja">
+	                    <p>La Libertad-Trujillo</p>
+	                    <small>Juan de la Cruz <i class="fa fa-phone" aria-hidden="true"></i> (01)-44747</small>
+	                </div>
+	                <div class="caja">
+	                    <p>La Libertad-Trujillo</p>
+	                    <small>Juan de la Cruz <i class="fa fa-phone" aria-hidden="true"></i> (01)-44747</small>
+	                </div>
+	        </div>
+	        <div class="col-md-4">
+                <div class="contact-section">
+                    <div class="contact-form">
+            			<form class="ajax-form" id="comment-form" method="post" action="">
+                            <div class="form-group">
+              					<input type="text" id="sender" name="sender">
+              					<label for="sender">Nombre</label>
+           					 </div>
+				            <div class="form-group">
+				              <input type="text" name="company" id="company">
+				              <label for="company">Apellidos</label>
+				            </div>
+				            <div class="form-group">
+				              <input type="email" name="email" id="email" />
+				              <label for="email">Email</label>
+				            </div>
+				             <div class="form-group">
+				              <input type="text" name="phone" id="phone" maxlength="9">
+				              <label for="phone">Celular</label>
+				            </div>
+				        	<div class="form-group">
+				          		<textarea id="message" name="message"></textarea>
+				          		<label for="message">Mensaje</label>
+				        	</div>
+				         	<input style="display:none" id="test2" type="checkbox"><label class="condiciones" for="test2"> Acepto las <strong>Condiciones del servicio</strong>  y la política de privacidad de Company</label>
+				        	<button type="submit" name="submit" class="boton">Enviar</button>
+				        </form>
+				    </div>
+        		</div>
+        	</div>
+        	<div class="col-md-4">
+        		<div id="mapa">
+    			<div id="map"></div>
+			</div>
+			<div id="caja"></div>
+        	</div>
+        </div>
+        </div>
+</body>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOOf6CdvXjzAl3NgzO79fdNZTV4Nx6GHM&callback=initMap"></script>
+    <script src="js/main.js"></script> 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins/jquery.validate.min_v1.11.1.js"></script>

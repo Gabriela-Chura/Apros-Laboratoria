@@ -1,14 +1,47 @@
+* {
+  outline: 1px solid red; }
+
 body {
   background-color: rgba(0, 0, 0, 0.5);
   background-image: url("../assets talent fest/backgrund-footer.jpg");
   background-position: top; }
 
+/*--------------------------------contacto----------------------------------------------*/
+.titulo {
+  color: #414a55; }
+
+.contactos {
+  background-color: white;
+  line-height: 2px;
+  padding: 3% 9%;
+  margin-right: 15px; }
+  .contactos .caja {
+    margin: 20px 0;
+    color: #242021; }
+    .contactos .caja p {
+      font-size: 14px;
+      font-weight: bold; }
+    .contactos .caja i {
+      padding-left: 15px; }
+    .contactos .caja small {
+      font-size: 12px; }
+
+.separator {
+  border: 0;
+  border-bottom: 1px solid #cfcbcb;
+  width: 45px;
+  position: absolute;
+  left: 115px;
+  padding: 7px 0; }
+
+/*------------------------------------------formulario------------------------------*/
 form {
-  margin-top: 197px; }
+  margin: 0px 30px 0 0;
+  padding: 0 5px; }
 
 .contact-form {
   text-align: left;
-  padding: 40px 0;
+  padding: 0;
   color: #333; }
 
 .form-group {
@@ -55,7 +88,7 @@ form {
   border-bottom: 2px solid #61b956; }
 
 .form-group textarea {
-  min-height: 100px;
+  min-height: 50px;
   border: 0;
   padding: 0px;
   border-bottom: 1px solid #ffffff;
@@ -102,7 +135,7 @@ form {
 .condiciones {
   color: #ffffff;
   font-weight: 100 !important;
-  margin: 30px 0; }
+  margin: 10px 0; }
 
 /*-------------------------checkbox--------------------*/
 /* Base for label styling */
