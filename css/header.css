@@ -45,7 +45,7 @@ body {
 .inicioTexto1 {
   position: relative;
   top: 160px;
-  margin-left: 220px;
+  margin-left: 70px;
   color: #fff;
   font-size: 40px;
   font-weight: 900; }
@@ -53,7 +53,7 @@ body {
 .inicioTexto2 {
   position: relative;
   top: 140px;
-  margin-left: 220px;
+  margin-left: 71px;
   font-size: 16px;
   color: #fff;
   font-weight: 400; }
@@ -65,14 +65,15 @@ body {
   background-repeat: no-repeat;
   width: 80%;
   height: 68%;
-  margin-left: 17%;
+  margin-left: 10%;
+  margin-top: -5%;
   position: absolute;
   top: 70%; }
 
 .letraVerdeA {
   position: relative;
   bottom: -170px;
-  margin-right: 270px;
+  margin-right: 180px;
   height: 40px;
   font-size: 70px;
   font-weight: 900;
@@ -81,7 +82,7 @@ body {
 .letraVerdeB {
   position: relative;
   bottom: -190px;
-  margin-right: 360px;
+  margin-right:265px;
   font-size: 18px;
   font-weight: 600;
   color: #5bbb4a; }
@@ -97,8 +98,8 @@ body {
 
 .imagenVideo {
   position: relative;
-  margin-left: 510px;
-  top: 380px;
+  margin-left: 420px;
+  top: 370px;
   z-index: 1; }
 
 /*------------------------------------------------FIN MODAL VIDEO --------------------------------------------------------*/
@@ -115,7 +116,7 @@ body {
 /*------------------------------------------------INICIO NOTICIAS --------------------------------------------------------*/
 .carousel {
   top: 420px;
-  margin-left: -70px;
+  margin-left: 10px;
   width: 450px;
   height: 420px;
   background-color: #5bbb4a; }

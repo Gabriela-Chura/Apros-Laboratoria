@@ -1,10 +1,10 @@
-body {
+.contacmap{
   background-color: rgba(0, 0, 0, 0.5);
   background-image: url("../img/backgrund-footer.jpg");
   background-position: top; }
 
 #home {
-  margin-top: 3%; }
+  padding-top: 3%; }
 
 /*--------------------------------contacto----------------------------------------------*/
 .titulo {
@@ -201,7 +201,7 @@ span.aviso {
 .foot li {
   display: inline; }
   .foot li a i {
-    margin: 50px 10px 10px 10px;
+    padding: 50px 10px 10px 10px;
     color: white; }
 
 /*-------------------------------*/
