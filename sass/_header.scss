@@ -69,9 +69,9 @@ body {margin:0;
     background-repeat: no-repeat;
     width: 80%;
     height: 68%;
-    margin-left: 19%;
+    margin-left: 17%;
     position: absolute;
-    top: 80%;
+    top: 70%; 
 }
 
 .letraVerdeA{
@@ -102,15 +102,15 @@ body {margin:0;
     }
 .imagenVideo {
     position: relative;
-    margin-left: 540px;
-    top: 430px;
+    margin-left: 510px;
+    top: 380px;
     z-index: 1;
 }
 /*------------------------------------------------FIN MODAL VIDEO --------------------------------------------------------*/
 /*------------------------------------------------INICIO TEXTO --------------------------------------------------------*/
 .textoNosotros {
     position: relative;
-    top: 450px;
+    top: 390px;
     margin-left: 120px;
     text-align: left;
     width: 618px;
@@ -119,8 +119,8 @@ body {margin:0;
 /*------------------------------------------------FIN TEXTO --------------------------------------------------------*/
 /*------------------------------------------------INICIO NOTICIAS --------------------------------------------------------*/
 .carousel {
-    top: 470px;
-    margin-left: -120px;
+    top: 420px;
+    margin-left: -70px;
     width: 450px;
     height: 420px;
     background-color: #5bbb4a;
