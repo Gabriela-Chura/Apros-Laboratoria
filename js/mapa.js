@@ -84,7 +84,7 @@ function initMap() {
     var map = new google.maps.Map(mapElement, mapOptions);
 
     //-----------------------------------------JSON!
-    var json = '{"position1":{"lat":-15.133125,"lng":-72.867645, "text":{"tittle":"ubicación 1","message":"dirección 1"}},"position2":{"lat":-16.189825,"lng":-70.777242, "text":{"tittle":"ubicación 2","message":"dirección 2"}},"position3":{"lat":-13.004176,"lng":-70.777242, "text":{"tittle":"ubicación 3","message":"dirección 3"}},"position4":{"lat":-10.394528,"lng":-73.337986, "text":{"tittle":"ubicación 4","message":"dirección 4"}},"position5":{"lat":-8.797188,"lng":-77.257491, "text":{"tittle":"ubicación 5","message":"dirección 5"}},"position6":{"lat":-6.726053,"lng":-78.982074, "text":{"tittle":"ubicación 6","message":"dirección 6"}},"position7":{"lat":-4.124983,"lng":-76.943931, "text":{"tittle":"ubicación 7","message":"dirección 7"}},"position8":{"lat":-3.655728,"lng":-73.337986, "text":{"tittle":"ubicación 8","message":"dirección 8"}},"image":"images/punto.png"}';
+    var json = '{"position1":{"lat":-15.133125,"lng":-72.867645, "text":{"tittle":"ubicación 1","message":"dirección 1"}},"position2":{"lat":-16.189825,"lng":-70.777242, "text":{"tittle":"ubicación 2","message":"dirección 2"}},"position3":{"lat":-13.004176,"lng":-70.777242, "text":{"tittle":"ubicación 3","message":"dirección 3"}},"position4":{"lat":-10.394528,"lng":-73.337986, "text":{"tittle":"ubicación 4","message":"dirección 4"}},"position5":{"lat":-8.797188,"lng":-77.257491, "text":{"tittle":"ubicación 5","message":"dirección 5"}},"position6":{"lat":-6.726053,"lng":-78.982074, "text":{"tittle":"ubicación 6","message":"dirección 6"}},"position7":{"lat":-4.124983,"lng":-76.943931, "text":{"tittle":"ubicación 7","message":"dirección 7"}},"position8":{"lat":-3.655728,"lng":-73.337986, "text":{"tittle":"ubicación 8","message":"dirección 8"}},"image":"img/punto.png"}';
     var obj = JSON.parse(json);
     var geocoder = new google.maps.Geocoder;
     //-----------------------------------------Distribuidor de Makers!
@@ -95,7 +95,7 @@ function initMap() {
             '<h1 id="firstHeading" class="firstHeading" style="text-align: center">' + obj["position" + (i + 1)].text.tittle + '</h1>' +
             '<div id="bodyContent" style="text-align: center">' +
             '<p>' + obj["position" + (i + 1)].text.message + '</p>' +
-            '<img src="images/logo-map-pin.png" alt="">'+
+            '<img src="img/logo-map-pin.png" alt="">'+
             '</div>' +
             '</div>';
         var mapMarker = new google.maps.Marker({
