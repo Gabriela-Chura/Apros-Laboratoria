@@ -5,9 +5,11 @@ function myFunction() {
     } else {
         x.className = "topnav";
     }
+    
+    videoModal();
 }
 
-$(document).ready(function(){
+function videoModal(){
     /* Get iframe src attribute value i.e. YouTube video url
     and store it in a variable */
     var url = $("#videoPublicitario").attr('src');
@@ -23,4 +25,4 @@ $(document).ready(function(){
     $("#modalVideo").on('show.bs.modal', function(){
         $("#videoPublicitario").attr('src', url);
     });
-});
+}

@@ -1,4 +1,4 @@
-google.maps.event.addDomListener(window, 'load', initMap);
+
 
 function initMap() {
     var mapOptions = {

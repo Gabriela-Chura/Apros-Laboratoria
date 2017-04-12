@@ -1,10 +1,10 @@
-$(document).ready(init);
+$(document).ready(sladerCarrusel);
 
 var currentSection = null;
-var currentSec = null;
 
 
-function init() {
+
+function sladerCarrusel() {
     currentSection = $('#section-1');
     $('#btn-sect1').click(onClickBtnFirst);
     $('#btn-sect2').click(onClickBtnSecond);
@@ -42,6 +42,7 @@ function onClickBtnFive() {
 }
 
 function gotoSection(_identificadorDeSeccion) {
+    
     if(currentSection.hasClass('visible')){
        currentSection.removeClass('visible');
     }else{
